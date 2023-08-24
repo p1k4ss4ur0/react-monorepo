@@ -1,7 +1,13 @@
 {
-  "name": "@react-monorepo/web",
+  "name": "@main/web",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-dotenv && craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,10 +16,20 @@
     "@types/node": "^16.18.35",
     "@types/react": "^18.2.11",
     "@types/react-dom": "^18.2.4",
+    "@types/react-router-dom": "^5.3.3",
     "axios": "^1.4.0",
+    "lucide-react": "^0.264.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
+    "react-modal": "^3.16.1",
+    "react-modern-drawer": "^1.2.2",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-switch": "^7.0.0",
+    "react-tooltip": "^5.21.1",
+    "reactjs-popup": "^2.0.5",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -21,12 +37,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.1.0",
     "react-dotenv": "^0.1.3"
-  },
-  "scripts": {
-    "start": "react-dotenv && craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [

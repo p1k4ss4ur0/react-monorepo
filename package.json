@@ -1,16 +1,16 @@
 {
-  "name": "react-monorepo",
+  "name": "main",
   "version": "1.0.0",
   "description": "A React monorepo with packages that I often use.",
   "main": "index.js",
-  "repository": "https://github.com/p1k4ss4ur0/react-monorepo.git",
+  "repository": "https://github.com/p1k4ss4ur0/main.git",
   "author": "Tiago Onofre <tiagoonofre335@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "backend": "yarn workspace @react-monorepo/backend start",
-    "mobile": "yarn workspace @react-monorepo/mobile start",
-    "web": "yarn workspace @react-monorepo/web start"
+    "backend": "yarn workspace @main/backend start",
+    "mobile": "yarn workspace @main/mobile start",
+    "web": "yarn workspace @main/web start"
   },
   "workspaces": {
     "packages": [

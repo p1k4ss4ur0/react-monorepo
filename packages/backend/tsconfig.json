@@ -108,6 +108,7 @@
     "baseUrl": ".",                                /* Skip type checking all .d.ts files. */
     "paths": {
       "@routes": ["./src/routes"],
+      "@utils/*": ["./src/utils/*"],
     }
   }
 }
